@@ -134,7 +134,7 @@ input:checked + .slider:before {
 .form-card {
     background-color: rgb(60, 60, 60);
 
-    margin: 12em 20%;
+    margin: 12em 30%;
     padding: 3em 0;
     border: 4px solid white;
     border-radius: 2em;
@@ -151,7 +151,7 @@ input:checked + .slider:before {
 }
 
 .form-card input[type=text] {
-    margin: 2em;
+    margin: 2em auto;
     height: 2em;
 
     font-family: 'Montserrat', sans-serif;
@@ -163,6 +163,10 @@ input:checked + .slider:before {
     background-color: rgb(60, 60, 60);
     border: 4px solid white;
     border-radius: 2em;
+}
+
+.form-card input[type=button] {
+    margin: 2em auto;
 }
 
 .form-card h3 {
