@@ -19,7 +19,7 @@ refresh_btn.addEventListener('click', () =>
 
     const url = (window.location.hostname.includes('localhost'))
                         ? 'http://localhost:8080/activity'
-                        : '';
+                        : 'https://activities-page-2021.herokuapp.com/activity';
 
     fetch(url, {method: 'GET'})
         .then(response => response.json())
@@ -55,7 +55,7 @@ submmit_btn.addEventListener('click', () =>
 
     const url = (window.location.hostname.includes('localhost'))
                         ? 'http://localhost:8080/activity'
-                        : '';
+                        : 'https://activities-page-2021.herokuapp.com/activity';
     
     fetch(url, {
         method: 'POST',
