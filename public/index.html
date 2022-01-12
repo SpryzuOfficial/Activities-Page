@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activities</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><input type="button" class="button-element button-dark" value="Home" id="home-btn"></li>
+
+                    <li><input type="button" class="button-element button-dark" value="Suggest Activity" id="sact-btn"></li>
+
+                    <li>
+                        <label class="switch">
+                            <input type="checkbox" id="check" onclick="checkedSwitch()">
+                            <span class="slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="form-card" id="frm-div">
+            <label for="name-txt">Name:</label>
+            <input type="text" id="name-txt">
+            <label for="desc-txt">Description:</label>
+            <input type="text" id="desc-txt">
+            <label for="email-txt">Email:</label>
+            <input type="text" id="email-txt">
+
+            <input class="button-element button-dark" type="button" value="Send" id="sbt-btn">
+
+            <h3 id="status-lb">Status</h3>
+        </div>
+
+        <div class="activity-text" id="act-div">
+            <h2 id="act_name">Name</h2>
+            <p id="act_desc">Description</p>
+            <input type="button" class="button-element button-dark" value="Refresh" id="refr-btn">
+        </div>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
